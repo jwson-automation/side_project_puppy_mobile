@@ -2,13 +2,13 @@
 
 Using Platform version Nougat 25
 
-Feature List
+## Feature List
 
-Login
+### Login
 
 [] Login without password ( only Authentication of social login )
 
-Main Activity
+### Main Activity
 
 [] Load the Best Recommended Trail Data
 
@@ -16,7 +16,7 @@ Main Activity
 
 [] Open Link of KaKaoTalk OpenChat of Recently Be Added
 
-Community Activity
+### Community Activity
 
 [] Upload Request of Trail Information
 
@@ -24,7 +24,7 @@ Community Activity
 
 [] Upload KaKaoTalk OpenChat Link Url
 
-Setting Activity
+### Setting Activity
 
 [] Block & Dislike Trail Data
 
