@@ -5,6 +5,10 @@
 ## Caputre
 
 ![image](https://user-images.githubusercontent.com/108061510/226277107-c8fc525a-8b17-4606-bf73-58634d4ab5a8.png)
+![image](https://user-images.githubusercontent.com/108061510/226526204-bb529b05-d5e4-4465-b086-dace62867e88.png)
+![image](https://user-images.githubusercontent.com/108061510/226526218-8eb0f6fd-9896-4e40-a6b2-ece4681634dd.png)
+
+
 
 
 ## Feature List
