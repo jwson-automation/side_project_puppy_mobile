@@ -2,6 +2,11 @@
 
 Using Platform version Nougat 25
 
+## Caputre
+
+![image](https://user-images.githubusercontent.com/108061510/226277107-c8fc525a-8b17-4606-bf73-58634d4ab5a8.png)
+
+
 ## Feature List
 
 ### Login
