@@ -1,6 +1,6 @@
 # side_project_puppy_mobile
 
-Using Platform version Nougat 25
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
 
 ## Caputre
 
@@ -8,6 +8,10 @@ Using Platform version Nougat 25
 
 
 ## Feature List
+
+### Version
+
+Using Platform version Nougat 25
 
 ### Login
 
