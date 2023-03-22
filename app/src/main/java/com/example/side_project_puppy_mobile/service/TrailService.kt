@@ -1,4 +1,4 @@
-package com.example.side_project_puppy_mobile
+package com.example.side_project_puppy_mobile.service
 
 import retrofit2.Response
 import retrofit2.http.GET

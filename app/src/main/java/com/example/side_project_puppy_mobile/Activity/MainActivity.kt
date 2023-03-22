@@ -1,4 +1,4 @@
-package com.example.side_project_puppy_mobile
+package com.example.side_project_puppy_mobile.Activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,14 +6,12 @@ import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import com.example.side_project_puppy_mobile.R
 import com.example.side_project_puppy_mobile.databinding.ActivityMainBinding
-import com.example.side_project_puppy_mobile.ui.HomeActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     val TAG = "MainActivity"
@@ -46,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 if (it.resultCode == RESULT_OK) {
                     Log.d(TAG, "onCreate: 로그인성공!")
 
-                    val SelectLocationIntent = Intent(this, SelectLocationActivity::class.java)
+                    val SelectLocationIntent = Intent(this, ModeActivity::class.java)
                     startActivity(SelectLocationIntent)
                 }else{
                     Log.d(TAG, "onCreate: 로그인실패!")

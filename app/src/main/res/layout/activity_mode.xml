@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SelectLocationActivity">
+    tools:context=".Activity.ModeActivity">
 
     <Button
         android:id="@+id/CurrentLocationBtn"
@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#62B871"
         android:text="Current Location"
-        app:layout_constraintBottom_toTopOf="@+id/SearchLocationBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,33 +26,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CurrentLocationBtn" />
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="81dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cl" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/mode_viewpager"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"/>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="81dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CurrentLocationBtn"
-        app:srcCompat="@drawable/sl" />
+<!--    <me.relex.circleindicator.CircleIndicator3-->
+<!--        android:id="@+id/indicator"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/mode_viewpager"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

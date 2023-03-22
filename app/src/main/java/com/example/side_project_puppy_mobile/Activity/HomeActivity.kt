@@ -1,14 +1,11 @@
-package com.example.side_project_puppy_mobile.ui
+package com.example.side_project_puppy_mobile.Activity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import androidx.core.content.ContextCompat
-import com.example.side_project_puppy_mobile.R
+import com.example.side_project_puppy_mobile.adapter.RecyclerTrailAdapter
+
 import com.example.side_project_puppy_mobile.databinding.ActivityHomeBinding
-import com.example.side_project_puppy_mobile.databinding.ActivityMainBinding
-import com.example.side_project_puppy_mobile.dto.RecyclerTrailAdapter
 import com.example.side_project_puppy_mobile.dto.TrailData
 
 class HomeActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.side_project_puppy_mobile
+package com.example.side_project_puppy_mobile.service
 
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
@@ -10,7 +10,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory
 object TrailServiceImpl {
     private var service: TrailService? = null
     val _url = "Please inpt URL"
-    fun getService(): TrailService{
+    fun getService(): TrailService {
         if (service == null){
             var interceptor = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
 

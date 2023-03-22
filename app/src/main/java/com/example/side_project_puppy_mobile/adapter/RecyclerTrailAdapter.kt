@@ -1,4 +1,4 @@
-package com.example.side_project_puppy_mobile.dto
+package com.example.side_project_puppy_mobile.adapter
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -8,9 +8,11 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.side_project_puppy_mobile.R
+import com.example.side_project_puppy_mobile.dto.TrailData
 
-val TAG = "RecyclerTrailAdapter"
+
 class RecyclerTrailAdapter(private val items: ArrayList<TrailData>) : RecyclerView.Adapter<RecyclerTrailAdapter.ViewHolder>() {
+    var TAG = "RecyclerTrailAdapter"
 
     override fun getItemCount(): Int = items.size
 
@@ -27,13 +29,14 @@ class RecyclerTrailAdapter(private val items: ArrayList<TrailData>) : RecyclerVi
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val inflatedView = LayoutInflater.from(parent.context).inflate(R.layout.item_view, parent, false)
+        val inflatedView = LayoutInflater.from(parent.context).inflate(R.layout.card_item, parent, false)
 
         return RecyclerTrailAdapter.ViewHolder(inflatedView)
     }
 
     // 각 항목에 필요한 기능을 구현
     class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
+        var TAG = "RecyclerTrailAdapter_ViewHolder"
         private var view: View = v
         fun bind(listener: View.OnClickListener, item: TrailData) {
             Log.d(TAG, "bind: ${view}")
