@@ -8,7 +8,8 @@
 
 ## Caputre
 
-https://user-images.githubusercontent.com/108061510/227220001-59978a84-35e8-43ae-adaa-8cfe4a818f1b.mp4
+![test_capture](https://user-images.githubusercontent.com/108061510/227445147-f77c7be4-b129-4717-97a8-7f0d245b0792.gif)
+
 
 ## Feature List
 
