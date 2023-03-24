@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import com.example.side_project_puppy_mobile.Activity.CardActivity
 import com.example.side_project_puppy_mobile.Activity.HomeActivity
 import com.example.side_project_puppy_mobile.R
 import com.example.side_project_puppy_mobile.databinding.FragmentMode1Binding
@@ -39,7 +40,7 @@ class Mode2Fragment : Fragment() {
         binding = FragmentMode2Binding.inflate(inflater,container,false)
         binding.modeSl.setOnClickListener{
             Log.d(TAG, "onCreateView: modeSl click!!")
-            val HomeActivityIntent = Intent(activity, HomeActivity::class.java)
+            val HomeActivityIntent = Intent(activity, CardActivity::class.java)
             startActivity(HomeActivityIntent)
         }
         return binding.root
