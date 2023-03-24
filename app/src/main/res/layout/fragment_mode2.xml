@@ -3,21 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light"
-    tools:context=".fragment.Mode1Fragment">
+    android:background="#C6892FE1"
+    tools:context=".fragment.Mode2Fragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="fragment1"
-        android:textAlignment="center"
         android:gravity="center"
+        android:text="fragment2"
+        android:textAlignment="center"
         android:textSize="24sp" />
+
     <Button
-        android:id="@+id/mode_cl"
+        android:id="@+id/mode_sl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Current Location"
-    />
+        android:text="Search Location" />
 
 </FrameLayout>

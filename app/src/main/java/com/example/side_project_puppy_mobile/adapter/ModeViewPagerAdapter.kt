@@ -1,31 +1,26 @@
 package com.example.side_project_puppy_mobile.adapter
 
+import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.side_project_puppy_mobile.R
 import com.example.side_project_puppy_mobile.dto.ModeData
+import com.example.side_project_puppy_mobile.fragment.Mode1Fragment
+import com.example.side_project_puppy_mobile.fragment.Mode2Fragment
 
-class ModeViewPagerAdapter(modeList: ArrayList<ModeData>) : RecyclerView.Adapter<ModeViewPagerAdapter.PagerViewHolder>() {
+class ModeViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
     var TAG = "ModeViewPagerAdapter"
-    var item = modeList
+    val fragmentList = listOf<Fragment>(Mode1Fragment(),Mode2Fragment())
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = PagerViewHolder((parent))
+    override fun getItemCount(): Int = fragmentList.size
 
-    override fun getItemCount(): Int = item.size
-
-    override fun onBindViewHolder(holder: PagerViewHolder, position: Int) {
-        if (position == 0){
-            holder.modes.setImageResource(R.drawable.cl)}
-        else{
-            holder.modes.setImageResource(R.drawable.sl)}
-
-    }
-
-    inner class PagerViewHolder(parent: ViewGroup) : RecyclerView.ViewHolder
-        (LayoutInflater.from(parent.context).inflate(R.layout.mode_item, parent, false)){
-
-        val modes = itemView.findViewById<ImageView>(R.id.mode_img)
+    override fun createFragment(position: Int): Fragment {
+        return fragmentList[position]
     }
 }
