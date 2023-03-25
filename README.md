@@ -1,15 +1,36 @@
 # side_project_puppy_mobile
 
+Location base Trail Searching App
+
+## Description
+
+```
+An application that allows you to explore trails around your current location and leave your own itinerary.
+
+I wanted to create a community for dog walkers to share information about good trails in real time.
+
+First, we deployed the app with simple features, and then we will evolve it into a user-friendly app while receiving feedback from users.
+
+
+現在地周辺の散歩道を探索し、自分のスケジュールを残すことができるアプリです。
+
+犬の散歩をする人たちに、良い散歩道の情報をリアルタイムで共有できるコミュニティを作りたいと思いました。
+
+まずは簡単な機能を使って配布した後、ユーザーからのフィードバックを受けながらユーザーフレンドリーなアプリに進化させていく予定です。
+```
+
+## Stack
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
 
+
 ## Concept Art
 
-![In_the_distant_future_a_lying_woman_touching_a_large_transpa_9a63938d-8554-4a08-be4a-5b18c788f4cf](https://user-images.githubusercontent.com/108061510/227149072-93a51a1d-08df-49b9-88c2-65a7159fddc4.png)
+<img src = "https://user-images.githubusercontent.com/108061510/227149072-93a51a1d-08df-49b9-88c2-65a7159fddc4.png" width="400" height="400">
 
 ## Caputre
 
-![test_capture](https://user-images.githubusercontent.com/108061510/227445147-f77c7be4-b129-4717-97a8-7f0d245b0792.gif)
+<img src = "https://user-images.githubusercontent.com/108061510/227445147-f77c7be4-b129-4717-97a8-7f0d245b0792.gif" width="400" height="600">
 
 
 ## Process
