@@ -19,6 +19,8 @@ First, we deployed the app with simple features, and then we will evolve it into
 まずは簡単な機能を使って配布した後、ユーザーからのフィードバックを受けながらユーザーフレンドリーなアプリに進化させていく予定です。
 ```
 
+Server Repository is here : https://github.com/kwh1208/side_project_puppy
+
 ## Stack
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
