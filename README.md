@@ -12,15 +12,21 @@
 ![test_capture](https://user-images.githubusercontent.com/108061510/227445147-f77c7be4-b129-4717-97a8-7f0d245b0792.gif)
 
 
+## Process
+
+![image](https://user-images.githubusercontent.com/108061510/227702302-d800c423-30b1-4884-bbf1-abe3af829967.png)
+
+
 ## Feature List
 
-### Version
+### View
+[✔] Stack Card Recycler View
 
-Using Platform version Nougat 25
+[✔] ViewPager2
 
 ### Login
 
-[] Login without password ( only Authentication of social login )
+[✔] Login without password ( only Authentication of social login )
 
 ### Main Activity
 
@@ -45,3 +51,4 @@ Using Platform version Nougat 25
 [] Managing about Block Trail
 
 [] Setting the Trail Search Range
+
