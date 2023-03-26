@@ -23,6 +23,14 @@ First, we deployed the app with simple features, and then we will evolve it into
 
 Server Repository is here : https://github.com/kwh1208/side_project_puppy
 
+## The Difference
+
+```
+When someone posts a walk appointment, a service alert is sent to dogs in nearby locations.
+
+Comments and appointment information are automatically burned over time, keeping the app clean, lightly managed, and allowing users to check in frequently and lead the community.
+```
+
 ## Stack
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
