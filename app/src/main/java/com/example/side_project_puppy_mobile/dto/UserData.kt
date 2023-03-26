@@ -1,6 +1,9 @@
 package com.example.side_project_puppy_mobile.dto
 
-object UserData {
-    val name : String = ""
-    val id : Int = 0 // user id from google sign-in
-}
+data class UserData (
+    var id : String,
+    var name : String,
+    var email : String,
+    var password : String,
+    var address : String
+    )

@@ -1,15 +1,11 @@
 package com.example.side_project_puppy_mobile.Activity
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.widget.ViewPager2
-import com.example.side_project_puppy_mobile.R
 import com.example.side_project_puppy_mobile.adapter.ModeViewPagerAdapter
 import com.example.side_project_puppy_mobile.databinding.ActivityModeBinding
 import com.example.side_project_puppy_mobile.dto.ModeData
-import com.example.side_project_puppy_mobile.fragment.Mode1Fragment
 
 
 class ModeActivity : AppCompatActivity() {

@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
 
                 if (it.resultCode == RESULT_OK) {
                     Log.d(TAG, "onCreate: 로그인성공!")
-
                     val SelectLocationIntent = Intent(this, ModeActivity::class.java)
                     startActivity(SelectLocationIntent)
                 }else{
