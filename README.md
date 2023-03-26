@@ -7,29 +7,14 @@ Location base Trail Searching App
 ## Description
 
 ```
-An application that allows you to explore trails around your current location and leave your own itinerary.
+An app that gives you information on nearby trails and users appointment.
 
-I wanted to create a community for dog walkers to share information about good trails in real time.
+This app can make a community Immediately.
 
-First, we deployed the app with simple features, and then we will evolve it into a user-friendly app while receiving feedback from users.
+If a user make a appointment, Users who live nearby will be notified of the walk as a service alarm.
 
-
-現在地周辺の散歩道を探索し、自分のスケジュールを残すことができるアプリです。
-
-犬の散歩をする人たちに、良い散歩道の情報をリアルタイムで共有できるコミュニティを作りたいと思いました。
-
-まずは簡単な機能を使って配布した後、ユーザーからのフィードバックを受けながらユーザーフレンドリーなアプリに進化させていく予定です。
 ```
-
 Server Repository is here : https://github.com/kwh1208/side_project_puppy
-
-## The Difference
-
-```
-When someone posts a walk appointment, a service alert is sent to users in nearby locations.
-
-Comments and appointment information are automatically burned over time, keeping the app clean, lightly managed, and making users to check in frequently and lead the community.
-```
 
 ## Stack
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
