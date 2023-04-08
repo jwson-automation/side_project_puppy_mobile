@@ -15,7 +15,7 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val adapter = RecyclerTrailAdapter(TmpDB.TrailList)
+        val adapter = RecyclerTrailAdapter(TmpDB.TrailList2)
 
         binding.selectLocation.adapter = adapter
 
