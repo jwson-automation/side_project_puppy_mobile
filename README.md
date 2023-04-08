@@ -27,8 +27,7 @@ Server Repository is here : https://github.com/kwh1208/side_project_puppy
 
 ## Caputre
 
-<img src = "https://user-images.githubusercontent.com/108061510/227445147-f77c7be4-b129-4717-97a8-7f0d245b0792.gif" width="400" height="600">
-
+![KakaoTalk_20230408_130218832_AdobeExpress (1)](https://user-images.githubusercontent.com/108061510/230702504-5f29883a-5c76-4f0b-964a-89818f47a219.gif)
 
 ## Process
 
