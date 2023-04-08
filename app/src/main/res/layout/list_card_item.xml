@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     app:stackHeaderHeight="160dp">
 
@@ -15,29 +15,47 @@
         android:layout_height="160dp"
         android:background="@drawable/shape_rectangle_with_radius">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
         <TextView
             android:id="@+id/text_list_card_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
             android:textColor="@android:color/white"
             android:textSize="40sp"
             android:textStyle="bold"
-            tools:text="12"/>
+            tools:text="title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"/>
+        </LinearLayout>
     </FrameLayout>
 
     <LinearLayout
         android:id="@+id/container_list_content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_rectangle_with_radius"
+        android:orientation="vertical"
+        android:padding="12dp"
         android:animateLayoutChanges="true">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:text="Every corner must (initially) be provided a corner radius greater than 1, or else no corners are rounded. If you want specific corners to not be rounded, a work-around is to use android:radius to set a default corner radius greater than 1, but then override each and every corner with the values you really want, providing zero (0dp) where you don't want rounded corners."
-            />
+            android:textColor="@color/white"
+            android:text="여기에 이제 여러가지 설명이 들어갈거에요"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="오픈채팅방"/>
+
+
     </LinearLayout>
 
 </LinearLayout>
