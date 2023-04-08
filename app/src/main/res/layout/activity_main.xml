@@ -11,6 +11,7 @@
         android:layout_width="294dp"
         android:layout_height="49dp"
         android:backgroundTint="@color/black"
+        android:textColor="@color/white"
         android:text="Google"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
