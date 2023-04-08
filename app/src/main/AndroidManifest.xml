@@ -1,4 +1,4 @@
-<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools">
 
 <application
@@ -12,7 +12,7 @@ xmlns:tools="http://schemas.android.com/tools">
     android:theme="@style/Theme.Side_project_puppy_mobile"
     tools:targetApi="31">
     <activity
-        android:name=".CardActivity"
+        android:name=".Activity.CardActivity"
         android:exported="false" />
     <activity
         android:name=".Activity.ModeActivity"
@@ -38,17 +38,12 @@ xmlns:tools="http://schemas.android.com/tools">
             android:name="android.app.lib_name"
             android:value="" />
     </activity>
-    <activity android:name="com.example.side_project_puppy_mobile.Activity.CardActivity" />
-</application>
 
-</manifest>=======
-
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-<application>
     <activity
         android:name="com.example.side_project_puppy_mobile.Activity.SigninActivity"
         android:exported="false"
-
         />
+
 </application>
-</manifest>>>>>>>> Added
+
+</manifest>

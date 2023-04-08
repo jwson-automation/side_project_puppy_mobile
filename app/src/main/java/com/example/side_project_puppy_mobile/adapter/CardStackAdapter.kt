@@ -47,8 +47,9 @@ class CardStackAdapter(context: Context) : StackAdapter<Int>(context) {
 
     override fun getItemViewType(position: Int): Int {
         return when (position) {
-            6 -> R.layout.list_card_item_larger_header //TODO TEST LARGER ITEM
-            10 -> R.layout.list_card_item_with_no_header
+            //only else use
+            -99 -> R.layout.list_card_item_larger_header
+            -999 -> R.layout.list_card_item_with_no_header
             else -> R.layout.list_card_item
         }
     }

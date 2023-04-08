@@ -17,9 +17,7 @@ import com.example.side_project_puppy_mobile.fragment.Mode2Fragment
 class ModeViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
     var TAG = "ModeViewPagerAdapter"
     val fragmentList = listOf<Fragment>(Mode1Fragment(),Mode2Fragment())
-
     override fun getItemCount(): Int = fragmentList.size
-
     override fun createFragment(position: Int): Fragment {
         return fragmentList[position]
     }
